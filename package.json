@@ -1,0 +1,27 @@
+{
+  "name": "s12",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/hierarchy": "^0.6.8",
+    "@antv/layout": "^0.3.1",
+    "@logicflow/core": "1.2.0-next.0",
+    "@logicflow/extension": "1.2.0-next.0",
+    "dagre": "^0.8.5",
+    "element-plus": "^2.2.17",
+    "lodash.debounce": "^4.0.8",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
