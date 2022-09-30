@@ -84,14 +84,14 @@ class TeamNodeModel extends RectNodeModel {
   setIsCloseToBoundary (flag) {
     this.setProperty('isCloseToBoundary', flag)
   }
-  // getAnchorStyle (anchorInfo) {
-  //   const style = super.getAnchorStyle(anchorInfo);
-  //   style.fill = 'transparent';
-  //   style.stroke = 'transparent';
-  //   style.hover.fill = 'transparent';
-  //   style.hover.stroke = 'transparent';
-  //   return style;
-  // }
+  getAnchorStyle (anchorInfo) {
+    const style = super.getAnchorStyle(anchorInfo);
+    style.fill = 'transparent';
+    style.stroke = 'transparent';
+    style.hover.fill = 'transparent';
+    style.hover.stroke = 'transparent';
+    return style;
+  }
   /**
    * 重写定义锚点
    */
